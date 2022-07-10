@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Build-Timestamp: 2022-07-11T00:39:22.821+0200
+Created-By: Gradle 3.0
+Build-Jdk: 1.8.0_332 (Oracle Corporation 25.332-b09)
+Main-Class: com.github.l3nnartt.permavoice.Main
+
