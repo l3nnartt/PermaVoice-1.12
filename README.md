@@ -1,7 +1,8 @@
-# PermaVoice-1.8
+# PermaVoice-1.12
+
 This addon allows you to talk in the LabyMod VoiceChat continuously!
 
-[![Build Addon](https://github.com/l3nnartt/Permavoice-1.8/actions/workflows/build.yml/badge.svg)](https://github.com/l3nnartt/Permavoice-1.8/actions/workflows/build.yml)
+[![Build Addon](https://github.com/l3nnartt/Permavoice-1.12/actions/workflows/build.yml/badge.svg)](https://github.com/l3nnartt/Permavoice-1.12/actions/workflows/build.yml)
 
 ## Setup Workspace
 ```

@@ -14,7 +14,11 @@ import java.util.logging.Logger;
 import net.labymod.addons.voicechat.VoiceChat;
 import net.labymod.api.LabyModAddon;
 import net.labymod.main.LabyMod;
-import net.labymod.settings.elements.*;
+import net.labymod.settings.elements.BooleanElement;
+import net.labymod.settings.elements.ControlElement;
+import net.labymod.settings.elements.HeaderElement;
+import net.labymod.settings.elements.KeyElement;
+import net.labymod.settings.elements.SettingsElement;
 import net.labymod.utils.Material;
 import net.labymod.utils.ModColor;
 
@@ -85,7 +89,7 @@ public class PermaVoice extends LabyModAddon {
             "GitHub",
             () ->
                 LabyMod.getInstance()
-                    .openWebpage("https://github.com/l3nnartt/PermaVoice-1.8", false)));
+                    .openWebpage("https://github.com/l3nnartt/PermaVoice-1.12", false)));
     subSettings.add(new HeaderElement(ModColor.cl('a') + "PermaVoice Settings"));
     subSettings.add(
         new BooleanElement(
