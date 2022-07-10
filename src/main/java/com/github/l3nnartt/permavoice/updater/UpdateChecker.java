@@ -88,7 +88,7 @@ public class UpdateChecker implements Runnable {
                 new Thread(
                     () ->
                         new FileDownloader(
-                            "http://dl.lennartloesche.de/permavoice/12/PermaVoice.jar", file)
+                                "http://dl.lennartloesche.de/permavoice/12/PermaVoice.jar", file)
                             .download()));
       } else {
         PermaVoice.getLogger("You run on the latest version of PermaVoice (" + localVersion + ")");
